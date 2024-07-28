@@ -1,0 +1,12 @@
+@page "/mycomponent"
+
+<h3>My Blazor Component</h3>
+
+<button @onclick="DisplayMessage">Click me</button>
+
+@code {
+    private void DisplayMessage()
+    {
+        Console.WriteLine("Button clicked!");
+    }
+}
